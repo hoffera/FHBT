@@ -787,7 +787,9 @@ section,
   align-items: center;
   justify-content: center;
 }
-
+.title a, .description {
+  font-weight: bold;
+}
 .hero img {
   position: absolute;
   inset: 0;
@@ -1583,7 +1585,7 @@ section,
 
 .team .member .member-img {
   margin: 0 80px;
-  border-radius: 50%;
+  border-radius: 40%;
   overflow: hidden;
   position: relative;
   border: 4px solid var(--background-color);
