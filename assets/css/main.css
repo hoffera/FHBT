@@ -155,7 +155,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 80px;
   margin-right: 8px;
 }
 
@@ -218,7 +218,22 @@ h6 {
   --nav-color: #3a3939;
   --nav-hover-color: #00C2FF;
 }
+.buyw-btn {
+  background-color: #F3FB44; /* Cor de fundo do botão */
+  color: black; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  text-decoration: none; /* Remove o sublinhado do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  display: inline-block; /* Faz o botão se ajustar ao tamanho do texto */
+  transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+}
 
+.buyw-btn:hover {
+  background-color: #00C2FF; /* Cor de fundo quando o botão é hovered */
+  color: white;
+}
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
@@ -490,7 +505,7 @@ h6 {
 }
 
 .footer .footer-about .logo span {
-  color: var(--heading-color);
+  color: var(F3FB44);
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -744,7 +759,7 @@ section,
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--accent-color);
+  background: #F3FB44;
   display: inline-block;
 }
 
@@ -1068,7 +1083,7 @@ section,
   left: 0;
   width: 30px;
   height: 2px;
-  background: var(--accent-color);
+  background: #F3FB44;
   border-right: 5px solid var(--background-color);
 }
 
@@ -1112,7 +1127,7 @@ section,
 }
 
 .services .service-item .title a:hover {
-  color: var(--accent-color);
+  color: #F3FB44;
 }
 
 .services .service-item .description {
